@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="remembers.js" async></script>
+</head>
+<body>
+    <style>
+        div {
+            border: 1px solid black;
+            margin-top: 10px;
+    
+        }
+
+        .color_red{
+            color: red;
+        }
+ 
+        .input {
+            border: 1px solid black;
+            height: 400px;
+            width: 500px;
+            margin: 50px auto;
+            padding: 3px;
+            overflow: scroll;
+        }
+    
+        input {
+            margin-bottom: 10px;
+        }
+        
+        a#timeset {
+            float: right;
+            margin-right: 5px;
+        }
+    </style>
+    
+        <div class="input">
+            <span>Введите напоминалку: </span><input type="text" class="inp" value="Новая напоминалка">
+            <br>
+            <span>Добавьте таймер в секундах(сек) </span><input type="text" class="timer" value="0">
+            <br>
+            <button class="add">Add</button> <button class="reset">Clear All</button>
+            <hr>
+        </div>
+</body>
+</html>
